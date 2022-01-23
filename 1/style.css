@@ -1,0 +1,42 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+.block{
+      width: 100%;
+      height: 600px;
+      background-color: red;
+      display: flex;
+}
+.b1, .b2, .b3, .b4, .b5, .b6, .b7{
+      width: 100%;
+      height: 100%;
+      border: 1px solid #000;
+      text-align: center;
+      padding-top: 12%;
+      color: white;
+      font-size: 100px;
+      font-family: 'Arsenal', sans-serif;
+}
+.b1{
+      background: linear-gradient(rgb(255, 45, 45), rgb(150, 15, 15));
+}
+.b2{
+      background: linear-gradient(rgb(49, 60, 160), rgba(255, 0, 157, 0.671));
+}
+.b3{
+      background: linear-gradient(rgb(17, 209, 129), rgb(230, 111, 14));
+}
+.b4{
+      background: linear-gradient(rgb(68, 3, 3), rgb(9, 100, 21));
+}
+.b5{
+      background: linear-gradient(rgb(228, 15, 104), rgb(226, 203, 102));
+}
+.b6{
+      background: linear-gradient(rgb(0, 247, 255), rgb(11, 25, 223));
+}
+.b7{
+      background: linear-gradient(rgb(80, 51, 8), rgb(201, 175, 59));
+}
